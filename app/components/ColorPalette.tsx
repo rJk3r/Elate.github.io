@@ -369,11 +369,11 @@ export function ColorPalette() {
 
       <Tabs defaultValue="all" className="w-full">
         <TabsList className="grid w-full grid-cols-6 mb-8">
-          <TabsTrigger value="all">Вся палитра</TabsTrigger>
-          <TabsTrigger value="families">По семействам</TabsTrigger>
+          <TabsTrigger value="all">Всё</TabsTrigger>
+          <TabsTrigger value="families">Семейства</TabsTrigger>
           <TabsTrigger value="dark">Тёмные</TabsTrigger>
           <TabsTrigger value="themes">Темы</TabsTrigger>
-          <TabsTrigger value="material">Material UI 3</TabsTrigger>
+          <TabsTrigger value="material">Mat UI 3</TabsTrigger>
           <TabsTrigger value="examples">Примеры</TabsTrigger>
         </TabsList>
 
